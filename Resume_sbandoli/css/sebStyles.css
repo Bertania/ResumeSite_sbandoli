@@ -1,0 +1,120 @@
+body {
+    background-image: url('../images/bodyBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-image: url('../images/headerPic.jpg');
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(243, 244, 248, 1);
+    border-radius: 3px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -4px;
+    margin-bottom: -8px;
+    padding: -1px 1px 4px 1px;
+    width: 1090px;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3, h4 {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+hr {
+    margin: 0;
+    width: 100%;
+    border-right: 0;
+    border-left: 0;
+}
+
+main {
+    background: rgba(46, 73, 234, 0.47);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(243, 244, 248, 1);
+    border-radius: 3px;
+    font-family: Helvetica, sans-serif;
+    margin: 10px auto;
+    margin-top: -4px;
+    padding: 10px 10px 10px 10px;
+    width: 1090px;
+    display: flex;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 16px;
+    display: inline;
+}
+
+footer {
+    color: #ffffff;
+    border-color: rgba(243, 244, 248, 1);
+    background: rgba(0, 140, 217, 0.37);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 12px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1108px;
+    text-align: center;
+}
+
+/*
+    Nav Styles
+*/
+
+nav {
+    margin: 10px auto;
+    width: 1090px;
+}
+
+#MainNavigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    #MainNavigation ul.level1 > li {
+        display: block;
+        float: left;
+    }
+
+        #MainNavigation ul.level1 > li > a {
+            margin: 10px 1px;
+        }
+
+    #MainNavigation ul.level1 a {
+        background: rgba(0, 140, 217, 0.37);
+        border-color: rgba(243, 244, 248, 1);
+        border-width: 1px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        color: #ffffff;
+        font-size: 125%;
+        display: block;
+    }
+
+        #MainNavigation ul.level1 a:hover {
+            background-color: rgba(46, 145, 209, 0.73);
+            border-color: rgba(243, 244, 248, 1);
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 5px;
+            color: #ffffff;
+        }

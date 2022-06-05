@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Resume_sbandoli.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Sebestyen Bandoli - Resume</title>
+    <link rel="stylesheet" type="text/css" href="css/sebStyles.css">
+    <link rel="icon" type="image/png" href="images/headerSpiral.png">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <header>
+        <h2>Sebestyen Bandoli's Resume</h2>
+    </header>
+
+    <form id="form1" runat="server">
+
+        <nav>
+            <asp:Menu ID="MainNavigation" runat="server" DataSourceID="MainNavDS" Orientation="Horizontal">
+
+            </asp:Menu>
+        </nav>
+
+        <main>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </main>
+
+    </form>
+
+    <footer>
+        <p><small>Copyright &copy; Sebestyen Bandoli - Resume</small></p><br />
+        <p><small><a href="https://github.com/Bertania">Github</a></small></p>
+    </footer>
+
+    <asp:SiteMapDataSource ID="MainNavDS" runat="server" ShowStartingNode="false" />
+</body>
+</html>
