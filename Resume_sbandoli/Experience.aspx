@@ -25,7 +25,7 @@
                         <li>Experience in Customer Service</li>
                         <li>High Level of knowledge with computers/PC</li>
                         <li>Well versed in Microsoft products ex: Word, Excel</li>
-                        <li>Experience with Java, Javascript, html/css, .NET/Visual Basic, and C#/Unity</li>
+                        <li>Experience with Java, Javascript, html/css, .NET/Visual Studio, and C#/Unity</li>
                    </ul>
 
 </asp:Content>
